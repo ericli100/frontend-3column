@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <!-- <style>
+      body {
+        font-family: "Big Shoulders Display";
+        font-size: 22px;
+      }
+    </style> -->
+  </head>
+  <body>
+    <main
+      role="main"
+      class="flex min-h-[800px] flex-col items-center bg-[#D5E1EF] md:flex-row md:justify-center"
+    >
+      <div class="mt-[88px] min-h-[500px] w-[307px] bg-[#E28625] md:mt-0">
+        <img
+          src="./images/icon-sedans.svg"
+          class="m-[48px] h-[40px] w-[64px]"
+        />
+        <!-- <div class="font-[ui-monospace]">Sedanis</div> -->
+        <div class="font-custom">Sedanis</div>
+        <div>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </div>
+        <button class="rounded-xl bg-white p-2">Learn More</button>
+      </div>
+      <div class="min-h-[500px] min-w-[307px] bg-[#006971]"></div>
+      <div class="min-h-[500px] min-w-[307px] bg-[#004140]"></div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
