@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Big\\ Shoulders\\ Display", "ui-monospace"], // 'sans-serif' as a fallback
+        BigShouldersDisplay: ["Big\\ Shoulders\\ Display", "ui-monospace"], // 'sans-serif' as a fallback
+        LexendDeca: ["Lexend\\ Deca", "ui-monospace"],
       },
     },
   },
